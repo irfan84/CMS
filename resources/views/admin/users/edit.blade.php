@@ -51,10 +51,19 @@
         </div>
 
         <div class="form-group">
-            <input class="btn btn-primary" type="submit" name="Create User">
+            <button class="btn btn-primary col-sm-5" type="submit" name="Create User" style="width: 100px">Update</button>
         </div>
 
     </form>
+        <form method="POST" action="{{route('users.destroy', $user->id)}}">
+            {{ csrf_field() }}
+            @method('DELETE')
+            <div class="form-group col-sm-2"></div>
+            <div class="form-group">
+                <button type="submit" name="Delete" class="btn btn-danger col-sm-5" style="width: 100px">Delete</button>
+        </div>
+        </form>
+
     </div>
 
 

@@ -9,7 +9,7 @@
         @include('includes.form_error')
         <div class="form-group">
             <label for="name">Full Name</label>
-            <input  type="text" name="name" id="name" class="form-control" >
+            <input  type="text" name="name" id="name" class="form-control" required>
         </div>
 
         <div class="form-group">
@@ -46,7 +46,7 @@
         </div>
 
         <div class="form-group">
-            <input class="btn btn-primary" type="submit" name="Create User">
+            <button class="btn btn-primary" type="submit" name="Create">Create</button>
         </div>
 
     </form>
