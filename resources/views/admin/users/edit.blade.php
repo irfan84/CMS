@@ -51,7 +51,7 @@
         </div>
 
         <div class="form-group">
-            <button class="btn btn-primary col-sm-5" type="submit" name="Create User" style="width: 100px">Update</button>
+            <button class="btn btn-primary col-sm-5" type="submit" name="Update" style="width: 100px">Update</button>
         </div>
 
     </form>
